@@ -1,5 +1,16 @@
 import mongoose from "mongoose";
 
+/**
+ * @openapi
+ * components:
+ *   schemas:
+ *     Author:
+ *       type: object
+ *       properties:
+ *         name: 
+ *           type: string
+ *           required: true
+ */
 export const AuthorSchema = new mongoose.Schema({
     // Schema fields
     name: String
